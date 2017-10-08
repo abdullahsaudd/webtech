@@ -1,0 +1,13 @@
+import os 
+print("Creating Directories...")
+os.makedirs("D:/Diabetic_Retinopathy/Composite_Dataset_Filtered/ONE/LEFT")
+os.makedirs("D:/Diabetic_Retinopathy/Composite_Dataset_Filtered/ONE/RIGHT")
+os.makedirs("D:/Diabetic_Retinopathy/Composite_Dataset_Filtered/TWO/LEFT")
+os.makedirs("D:/Diabetic_Retinopathy/Composite_Dataset_Filtered/TWO/RIGHT")
+os.makedirs("D:/Diabetic_Retinopathy/Composite_Dataset_Filtered/THREE/LEFT")
+os.makedirs("D:/Diabetic_Retinopathy/Composite_Dataset_Filtered/THREE/RIGHT")
+os.makedirs("D:/Diabetic_Retinopathy/Composite_Dataset_Filtered/FOUR/LEFT")
+os.makedirs("D:/Diabetic_Retinopathy/Composite_Dataset_Filtered/FOUR/RIGHT")
+os.makedirs("D:/Diabetic_Retinopathy/Composite_Dataset_Filtered/DEFECTFREE/LEFT")
+os.makedirs("D:/Diabetic_Retinopathy/Composite_Dataset_Filtered/DEFECTFREE/RIGHT")
+print("Directories created successfully...")
